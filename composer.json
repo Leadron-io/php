@@ -1,0 +1,17 @@
+{
+  "name": "leadron/sdk",
+  "description": "Official Leadron SDK for PHP - lead management and partner commission platform",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Leadron\\": "src/"
+    }
+  },
+  "keywords": ["leadron", "lead-management", "crm", "commission", "partner"],
+  "minimum-stability": "stable"
+}
